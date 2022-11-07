@@ -17,6 +17,9 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
                     <h4 style={{ textTransform: "capitalize" }} className="card-title">
                       {item.name}
                     </h4>
+                    <h5 style={{ textTransform: "capitalize" }} className="card-title">
+                      {item.types[0].type.name}
+                    </h5>
                   </div>
                 </div>
               </div>
